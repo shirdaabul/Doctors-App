@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:contentPadding="8dp"
+    android:elevation="15dp"
+    android:padding="50dp"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="20dp"
+    android:background="#f6f5f5"
+    android:id="@+id/card_view_doctor">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/FirstLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/doctor_name"
+            android:padding="7dp"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="@color/blue_title" />
+
+        <TextView
+            android:id="@+id/DoctorName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="name"
+            android:padding="7dp"
+            android:textSize="15sp"
+            android:textColor="@color/blue_title"/>
+
+    </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/availableImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_available_24"
+            android:layout_below="@id/FirstLayout"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="start" />
+
+        <ImageView
+            android:id="@+id/notAvailableImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_not_availble"
+            android:layout_below="@id/FirstLayout"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="start"
+            android:visibility="invisible"/>
+
+        <TextView
+            android:id="@+id/availableText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/available"
+            android:layout_below="@id/FirstLayout"
+            android:layout_marginStart="40sp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="start"
+            android:textSize="15sp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/notAvailableText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/not_available"
+            android:layout_below="@id/FirstLayout"
+            android:layout_marginStart="40sp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="start"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:visibility="invisible"/>
+
+        <Button
+            android:id="@+id/waitingListBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/waiting_list"
+            android:textSize="10sp"
+            android:textColor="@color/white"
+            android:layout_below="@id/FirstLayout"
+            android:layout_marginStart="20dp"
+            android:layout_toEndOf="@id/notAvailableText"
+            android:background="@drawable/btn_background"/>
+
+        <Button
+            android:id="@+id/makeAppointmentBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/FirstLayout"
+            android:layout_toEndOf="@id/waitingListBTN"
+            android:text="@string/make_appointment"
+            android:textSize="10dp"
+            android:textColor="@color/white"
+            android:layout_marginStart="25dp"
+            android:visibility="invisible"
+            android:background="@drawable/btn_background"/>
+
+        <Button
+            android:id="@+id/cancleAppointmentBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/FirstLayout"
+            android:layout_toEndOf="@id/waitingListBTN"
+            android:text="@string/cancle_appointment"
+            android:textColor="@color/white"
+            android:textSize="10dp"
+            android:layout_marginStart="25dp"
+            android:visibility="invisible"
+            android:background="@drawable/btn_background"/>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
+
+
+
+

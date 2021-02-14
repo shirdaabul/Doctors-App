@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "80814521022",
+    "project_id": "doctors-appointment-83420",
+    "storage_bucket": "doctors-appointment-83420.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80814521022:android:0dc249fe8db5750519fcef",
+        "android_client_info": {
+          "package_name": "com.example.doctor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "80814521022-dg3u3kfcs07q7f35h140vrk5fu7l0bpc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkItsJmD_8oaEPPRJGPtUb69emW60zzUo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "80814521022-dg3u3kfcs07q7f35h140vrk5fu7l0bpc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80814521022:android:1974a06b811ff10919fcef",
+        "android_client_info": {
+          "package_name": "com.example.doctors"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "80814521022-dg3u3kfcs07q7f35h140vrk5fu7l0bpc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkItsJmD_8oaEPPRJGPtUb69emW60zzUo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "80814521022-dg3u3kfcs07q7f35h140vrk5fu7l0bpc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

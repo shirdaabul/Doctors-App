@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Doctors</string>
+    <string name="login_str">התחבר</string>
+    <string name="signUp_str">הרשמה</string>
+    <string name="welcome_str">ברוכים הבאים</string>
+    <string name="email_str">אימייל</string>
+    <string name="pass_str">סיסמא</string>
+    <string name="all_fileds_are_required">יש למלא את כל הפרטים</string>
+    <string name="create_new_account">יצירת משתמש חדש</string>
+    <string name="username_str">שם משתמש</string>
+    <string name="confirm_pass_str">אימות סיסמא</string>
+    <string name="password_must_be_length">הסיסמא חייבת להכיל לפחות 6 תווים</string>
+    <string name="passwords_not_match">הסיסמאות לא תואמות</string>
+    <string name="signup_success">ההרשמה הושלמה</string>
+    <string name="patient">מטופל</string>
+    <string name="doctor">"דוקטור "</string>
+    <string name="choose_type">בחר את תפקידך:</string>
+    <string name="authentication_failed">נתונים שגויים</string>
+    <string name="current_patient">מטופל כעת</string>
+    <string name="waiting_list">רשימת המתנה</string>
+    <string name="patient_name">שם המטופל:</string>
+    <string name="user_not_exists">משתמש לא קיים</string>
+    <string name="doctors_list">רשימת רופאים:</string>
+    <string name="doctor_name">שם הרופא:</string>
+    <string name="available">זמין</string>
+    <string name="not_available">לא זמין</string>
+    <string name="make_appointment">קבע פגישה</string>
+    <string name="cancle_appointment">בטל פגישה</string>
+    <string name="show_available_doctors">הצג רופאים זמינים</string>
+    <string name="failed">נכשל! משהו לא תקין</string>
+    <string name="Ok_BTN">אישור</string>
+    <string name="no_patients_waiting">אין מטופלים בהמתנה</string>
+    <string name="Registration_canceled">הפגישה עם הרופא בוטלה</string>
+    <string name="Doctor_waiting_list">"רשימת המתנה לרופא: "</string>
+    <string name="your_turn_now">התור שלך עכשיו</string>
+    <string name="Registration_appointment">נקבע תור</string>
+    <string name="hello_patient">"שלום "</string>
+    <string name="signOut">התנתק</string>
+</resources>

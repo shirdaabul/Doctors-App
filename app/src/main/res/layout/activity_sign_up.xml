@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/blue_activity_background">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="156dp"
+                android:layout_marginTop="25dp"
+                android:src="@drawable/main_image" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/create_new_account"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/blue_title"
+                android:textSize="35sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/choose_type"
+                android:drawableTint="@color/black"
+                android:layout_marginTop="25dp"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:drawableStart="@drawable/ic_check_black_24"
+                android:drawablePadding="10dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <androidx.appcompat.widget.AppCompatCheckBox
+                    android:id="@+id/DoctorChoise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/doctor"
+                    android:textSize="20sp" />
+
+                <androidx.appcompat.widget.AppCompatCheckBox
+                    android:id="@+id/PatientChoise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/patient"
+                    android:textSize="20sp"
+                    android:layout_marginStart="20dp"/>
+            </LinearLayout>
+
+
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/Username_STR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                app:met_floatingLabel="normal"
+                android:textColor="@color/black"
+                app:met_textColorHint="@color/black"
+                android:hint="@string/username_str"
+                android:drawableStart="@drawable/ic_username_black_24dp"
+                android:drawablePadding="10dp"/>
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/EmailSignUp_STR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                app:met_floatingLabel="normal"
+                android:textColor="@color/black"
+                app:met_textColorHint="@color/black"
+                android:hint="@string/email_str"
+                android:drawableStart="@drawable/ic_email_icon_black_24dp"
+                android:drawablePadding="10dp"/>
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/Pass1SignUp_STR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                app:met_floatingLabel="normal"
+                android:textColor="@color/black"
+                app:met_textColorHint="@color/black"
+                android:hint="@string/pass_str"
+                android:drawableStart="@drawable/ic_password_black_24dp"
+                android:drawablePadding="10dp"/>
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/Pass2SignUp_STR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                app:met_floatingLabel="normal"
+                android:textColor="@color/black"
+                app:met_textColorHint="@color/black"
+                android:hint="@string/confirm_pass_str"
+                android:drawableStart="@drawable/ic_password_black_24dp"
+                android:drawablePadding="10dp"/>
+
+            <Button
+                android:id="@+id/SignUp_BTN"
+                android:layout_width="246dp"
+                android:layout_height="56dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:text="@string/signUp_str"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+                android:background="@drawable/btn_background"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>
